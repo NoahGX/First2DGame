@@ -8,6 +8,6 @@ public class MovingBlock : MonoBehaviour
 
     void Update()
     {
-        transform.position += Vector3.left;
+        transform.position += Vector3.left * Time.deltaTime;
     }
 }
