@@ -7,7 +7,7 @@ public class KillArea : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Player"))
+        if (collision.collider.CompareTag("Finish"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
