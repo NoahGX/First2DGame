@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            GetComponent<RigidBody2D>().velocity = jumpVelocity;
+            GetComponent<Rigidbody2D>().velocity = jumpVelocity;
         }
     }
 }
