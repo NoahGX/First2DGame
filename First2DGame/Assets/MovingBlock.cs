@@ -11,6 +11,7 @@ public class MovingBlock : MonoBehaviour
     void Start()
     {
         startingYPosition = transform.position.y;
+        Score = 0;
     }
 
     void Update()
