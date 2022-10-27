@@ -6,7 +6,7 @@ public class MovingBlock : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 3f;
     float startingYPosition;
-    int Score;
+    public static int Score;
 
     void Start()
     {
